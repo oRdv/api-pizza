@@ -48,7 +48,7 @@ var usuario = {
         },
         {
             id:6,
-            imagem: './img/hellokitty.jpg',
+            imagem: './img/choso.jpg',
             nome: 'Nathalia Kawakami',
             endereco_email: 'kawakaminat@gmail.com',
             senha: 12345678,
@@ -57,7 +57,7 @@ var usuario = {
         },
         {
             id:7,
-            imagem: '',
+            imagem: './img/marx.jpg',
             nome: 'ivy torquato',
             endereco_email: 'madokaivy@gmail.com',
             senha: 12345678,
@@ -66,7 +66,7 @@ var usuario = {
         },
         {
             id:8,
-            imagem: '',
+            imagem: './img/itadori.jpg',
             nome: 'Nelson Silva',
             endereco_email: 'nelsinhofilho@gmail.com',
             senha: 12345678,
@@ -75,7 +75,7 @@ var usuario = {
         },
         {
             id:9,
-            imagem: '',
+            imagem: './img/robin.jpg',
             nome: 'Mylena Caetano',
             endereco_email: 'caetanomymy@gmail.com',
             senha: 12345678,
@@ -85,7 +85,7 @@ var usuario = {
 
         {
             id:10,
-            imagem: '',
+            imagem: './img/riku.jpg',
             nome: 'Yumi',
             endereco_email: 'yummmiiifushgro@gmail.com',
             senha: 12345678,
@@ -139,7 +139,7 @@ var produtos = {
             tipo: categorias.categoria[0].nome,
             nome: 'Margherita',
             descricao: 'Molho de tomate, mussarela, manjericão e parmesão.',
-            imagem: '',
+            imagem: './img/pizza-margherita.jpg',
             preco : 'R$31,90', 
             comentarios: produtosComentados.comentarios[0],
         },
@@ -149,7 +149,7 @@ var produtos = {
             tipo: categorias.categoria[0].nome,
             nome: 'Pepperoni',
             descricao: 'Molho de tomate, muçarela, salame pepperoni fatiado e orégano.',
-            imagem: '',
+            imagem: './img/pepperoni.jpg',
             preco:'R$33,50',
             comentarios: produtosComentados.comentarios[1],
         },
@@ -159,7 +159,7 @@ var produtos = {
             tipo: categorias.categoria[0].nome,
             nome: 'Calabresa',
             descricao: 'Molho de tomate, mussarela, calabresa fatiada e bacon.',
-            imagem: '',
+            imagem: './img/calabresa.jpg',
             preco: 'R$34,98',
             comentarios: produtosComentados.comentarios[2],
         },
@@ -169,7 +169,7 @@ var produtos = {
             tipo: categorias.categoria[0].nome,
             nome: 'Quatro Queijos',
             descricao: 'Mussarela, parmesão, gorgonzola e provolone derretidos sobre o molho de tomate.',
-            imagem: '',
+            imagem: './img/pizza-de-4-queijos.jpg',
             preco: 'R$36,90',
             comentarios: produtosComentados.comentarios[3],
         },  
@@ -179,7 +179,7 @@ var produtos = {
             tipo: categorias.categoria[0].nome,
             nome: 'Frango com Catupiry',
             descricao: 'Molho de tomate, frango desfiado e cremoso catupiry.',
-            imagem: '',
+            imagem: './img/pizza-frango.jpg',
             preco: 'R$35,90',
             comentarios: produtosComentados.comentarios[4],
 
@@ -190,7 +190,7 @@ var produtos = {
             tipo: categorias.categoria[0].nome,
             nome: 'Portuguesa',
             descricao: 'Mussarela, presunto, ovos, cebola, pimentão, azeitonas e molho de tomate.',
-            imagem: '',
+            imagem: './img/pizza-portuguesa.jpg',
             preco: 'R$37,90',
             comentarios: produtosComentados.comentarios[5],
         },
@@ -200,7 +200,7 @@ var produtos = {
             tipo: categorias.categoria[3].nome,
             nome: 'Pizza de Chocolate com Morangos',
             descricao: 'Massa de pizza doce, coberta com ganache de chocolate belga, morangos frescos e raspas de chocolate branco.',
-            imagem: '',
+            imagem: './img/pizza-chocolate.jpg',
             preco: 'R$29,90',
             comentarios: produtosComentados.comentarios[6],
 
@@ -211,7 +211,7 @@ var produtos = {
             tipo: categorias.categoria[3].nome,
             nome: 'Pizza de Banana Caramelizada',
             descricao: 'Massa de pizza doce, bananas caramelizadas, cobertura de caramelo artesanal, e uma pitada de canela.',
-            imagem: '',
+            imagem: './img/banana.jpg',
             preco: 'R$27,90',
             comentarios: produtosComentados.comentarios[7],
 
@@ -222,7 +222,7 @@ var produtos = {
             tipo: categorias.categoria[3].nome,
             nome: 'Pizza de Nutella com Marshmallow',
             descricao: 'Massa de pizza doce coberta com Nutella cremosa e generosas porções de marshmallows tostados.',
-            imagem: '',
+            imagem: './img/marshmallo.jpg',
             preco: 'R$27,90',
             comentarios: produtosComentados.comentarios[8],
         } 
@@ -233,7 +233,7 @@ var produtos = {
         {
             id: 1,
             tipo: 'Não Alcoólica',
-            imagem: '',
+            imagem: './img/refrigerantes.jpg',
             nome: 'Refrigerante Lata(350ml)',
             preco: 'R$5,90',
             descricao: 'Opções de refrigerantes como Coca-Cola, Pepsi, Guaraná, entre outros.'
@@ -241,7 +241,7 @@ var produtos = {
         {
             id: 2,
             tipo: 'Não Alcoólica',
-            imagem: '',
+            imagem: './img/sucos.jpg',
             nome: 'Suco Natural(300ml)',
             preco: 'R$7,90',
             descricao: 'Variedade de sucos naturais como laranja, limonada, abacaxi, entre outros.'
@@ -249,7 +249,7 @@ var produtos = {
         {
             id: 3,
             tipo: 'Alcoólica',
-            imagem: '',
+            imagem: './img/Cervejas-Long-Neck.jpg',
             nome: 'Cerveja Garrafa Long Neck (355ml)',
             preco: 'R$8,90',
             descricao: 'Diversidade de cervejas, incluindo opções nacionais e importadas.'
@@ -258,7 +258,7 @@ var produtos = {
         {
             id: 4,
             tipo: 'Não Alcoólica',
-            imagem: '',
+            imagem: './img/Garrafa-Agua-Mineral.jpg',
             nome: 'Água Mineral sem Gás (500ml)',
             preco: 'R$4,90',
             descricao:  'Água mineral natural para acompanhar a refeição.'
@@ -267,24 +267,15 @@ var produtos = {
         {
             id: 5,
             tipo: 'Não Alcoólica',
-            imagem: '',
+            imagem: './img/limonada-suica.jpg',
             nome: 'Limonada Suíça Jarra (1L)',
             preco: 'R$17,90',
             descricao:  'Limonada suíça refrescante servida em jarra para compartilhar.'
         },
         {
-            
             id: 6,
             tipo: 'Não Alcoólica',
-            imagem: '',
-            nome: 'Limonada Suíça Jarra (1L)',
-            preco: 'R$4,90',
-            descricao:  'Água mineral natural para acompanhar a refeição.'
-        },
-        {
-            id: 6,
-            tipo: 'Não Alcoólica',
-            imagem: '',
+            imagem: './img/refri-garrafa.jpg',
             nome: 'Refrigerante (1L)',
             preco: 'R$12,90',
             descricao: 'Opções de refrigerantes como Coca-Cola, Pepsi, Guaraná, entre outros.'
@@ -298,7 +289,7 @@ var produtos = {
             tipo: categorias.categoria[2].nome,
             nome: 'Pastel de Carne',
             descricao: 'Carne moída temperada, cebola, tomate e temperos.',
-            imagem: '',
+            imagem: './img/pastel-carne.jpg',
             preco: 'R$10,00',
 
         },
@@ -307,7 +298,7 @@ var produtos = {
             tipo: categorias.categoria[2].nome,
             nome: 'Pastel de Queijo',
             descricao: 'Queijo mussarela derretido.',
-            imagem: '',
+            imagem: './img/pastel-queijo.jpg',
             preco: 'R$10,00',
         },
         {
@@ -315,7 +306,7 @@ var produtos = {
             tipo: categorias.categoria[2].nome,
             nome: 'Pastel de Frango com Catupiry',
             descricao: 'Frango desfiado, catupiry e temperos.',
-            imagem: '',
+            imagem: './img/pastel-frango.jpg',
             preco: 'R$10,00',
         },
         {
@@ -323,7 +314,7 @@ var produtos = {
             tipo: categorias.categoria[2].nome,
             nome: 'Pastel de Calabresa com Queijo',
             descricao: 'Calabresa fatiada, queijo mussarela e cebola.',
-            imagem: '',
+            imagem: './img/pastel-calabresa.jpg',
             preco: 'R$10,00',
         },
         {
@@ -331,7 +322,7 @@ var produtos = {
             tipo: categorias.categoria[2].nome,
             nome: 'Pastel de Palmito com Queijo',
             descricao: 'Palmito refogado, cebola, tomate, queijo e temperos.',
-            imagem: '',
+            imagem: './img/pastel-palmito.jpg',
             preco: 'R$10,00',
         },
         {
@@ -339,7 +330,7 @@ var produtos = {
             tipo: categorias.categoria[2].nome,
             nome: 'Pastel de Pizza',
             descricao: 'Mussarela, molho de tomate, presunto e orégano.',
-            imagem: '',
+            imagem: './img/pastel-pizza.jpg',
             preco: 'R$10,00',
 
         },
@@ -348,17 +339,10 @@ var produtos = {
             tipo: categorias.categoria[2].nome,
             nome: 'Pastel de Camarão',
             descricao: 'Camarões temperados, cebola, pimentões e temperos.',
-            imagem: '',
+            imagem: './img/pastel-camarao.jpg',
             preco: 'R$12,00',
         },
-        {
-            id:8,
-            tipo: categorias.categoria[6].nome,
-            nome: 'Pastel de Camarão',
-            descricao: 'Camarões temperados, cebola, pimentões e temperos.',
-            imagem: '',
-            preco: 'R$12,00',
-        }
+
     ],
 
     sobremesas: [
@@ -366,7 +350,7 @@ var produtos = {
             id:1,
             tipo: categorias.categoria[4].nome,
             nome: 'Pudim de Leite',
-            imagem: '',
+            imagem: './img/pudim.jpg',
             descricao: 'Leite condensado, leite, ovos e calda de caramelo.',
             preco: 'R$9,90',
         },
@@ -374,7 +358,7 @@ var produtos = {
             id:2,
             tipo: categorias.categoria[4].nome,
             nome: 'Torta de Limão',
-            imagem: '',
+            imagem: './img/torta-limao.jpg',
             descricao: 'Massa crocante, recheio de creme de limão e cobertura de merengue.',
             preco: 'R$12,90',
 
@@ -384,7 +368,7 @@ var produtos = {
             id:3,
             tipo: categorias.categoria[4].nome,
             nome: 'Mousse de Chocolate',
-            imagem: '',
+            imagem: './img/mousse-chocolate.jpg',
             descricao: 'Chocolate meio amargo, creme de leite, ovos e açúcar.',
             preco: 'R$8,90',
         },
@@ -392,7 +376,7 @@ var produtos = {
             id:4,
             tipo: categorias.categoria[4].nome,
             nome: 'Tiramisu',
-            imagem: '',
+            imagem: './img/tiramisu.jpg',
             descricao: 'Biscoitos tipo ladyfinger, café, mascarpone, cacau e rum.',
             preco: 'R$14,90',
         },
@@ -401,7 +385,7 @@ var produtos = {
             id:5,
             tipo: categorias.categoria[4].nome,
             nome: 'Cheesecake de Frutas Vermelhas',
-            imagem: '',
+            imagem: './img/cheesecake.jpg',
             descricao: ' Base de biscoito, recheio de cream cheese e calda de frutas vermelhas.',
             preco: 'R$16,90',
         },
@@ -410,7 +394,7 @@ var produtos = {
             id:6,
             tipo: categorias.categoria[4].nome,
             nome: 'Pavê de Chocolate e Morango',
-            imagem: '',
+            imagem: './img/pave-morango.jpg',
             descricao: 'Camadas alternadas de biscoitos, creme de chocolate, morangos e chantilly.',
             preco: 'R$11,90',
         },
@@ -419,7 +403,7 @@ var produtos = {
             id:7,
             tipo: categorias.categoria[4].nome,
             nome: 'Creme Brûlée',
-            imagem: '',
+            imagem: './img/creme.jpg',
             descricao: 'Creme de baunilha, açúcar cristalizado e raspas de limão.',
             preco: 'R$13,90',
         },
@@ -427,7 +411,7 @@ var produtos = {
             id:8,
             tipo: categorias.categoria[4].nome,
             nome: 'Torta de Maçã',
-            imagem: '',
+            imagem: './img/torta-maca.jpg',
             descricao: 'Massa folhada, maçãs, açúcar e canela.',
             preco: 'R$10,90',
         },
@@ -439,7 +423,7 @@ var produtos = {
             id:1,
             tipo: categorias.categoria[5].nome,
             nome: 'Chocolate Belga',
-            imagem: '',
+            imagem: './img/sorvete-belga.jpg',
             descricao: 'Chocolate belga, leite, creme de leite e açúcar.',
             preco: 'R$7,90 (uma bola)',
         },
@@ -447,8 +431,8 @@ var produtos = {
             id:2,
             tipo: categorias.categoria[5].nome,
             nome: 'Baunilha Bourbon',
-            imagem: '',
-            descricao: 'Chocolate belga, leite, creme de leite e açúcar.',
+            imagem: './img/sorvete-baunilha.jpg',
+            descricao: 'Favas de baunilha, creme de leite e açúcar.',
             preco: 'R$7,90 (uma bola)',
         },
 
@@ -457,7 +441,7 @@ var produtos = {
             id:3,
             tipo: categorias.categoria[5].nome,
             nome: 'Morango Fresco',
-            imagem: '',
+            imagem: './img/sorvete-morango.jpg',
             descricao: 'Morangos frescos, leite, creme de leite e açúcar.',
             preco: 'R$8,90 (uma bola)',
 
@@ -468,7 +452,7 @@ var produtos = {
             id:4,
             tipo: categorias.categoria[5].nome,
             nome: 'Limão Siciliano',
-            imagem: '',
+            imagem: './img/sorvete-limao.jpg',
             descricao: 'Suco e raspas de limão siciliano, leite, creme de leite e açúcar.',
             preco: 'R$8,90 (uma bola)',
 
@@ -479,7 +463,7 @@ var produtos = {
             id:5,
             tipo: categorias.categoria[5].nome,
             nome: 'Caramelo Salgado',
-            imagem: '',
+            imagem: './img/sorvete-caramelo.jpg',
             descricao: 'Caramelo artesanal com toque de sal, leite, creme de leite e açúcar.',
             preco: 'R$9,90 (uma bola)',
 
@@ -489,9 +473,9 @@ var produtos = {
 
             id:6,
             tipo: categorias.categoria[5].nome,
-            nome: 'Manga Alphonso',
-            imagem: '',
-            descricao: 'Manga Alphonso fresca, leite, creme de leite e açúcar.',
+            nome: 'Manga',
+            imagem: './img/sorvete-manga.jpg',
+            descricao: 'Manga fresca, leite, creme de leite e açúcar.',
             preco: 'R$9,90 (uma bola)',
 
         },
@@ -500,9 +484,9 @@ var produtos = {
 
             id:7,
             tipo: categorias.categoria[5].nome,
-            nome: 'Amarena (Cereja Italiana)',
-            imagem: '',
-            descricao: 'Cerejas amarena, leite, creme de leite e açúcar.',
+            nome: 'Cereja',
+            imagem: './img/sorvete-cereja.jpg',
+            descricao: 'Cerejas, leite, creme de leite e açúcar.',
             preco: 'R$10,90 (uma bola)',
 
         },
@@ -512,7 +496,7 @@ var produtos = {
             id:8,
             tipo: categorias.categoria[5].nome,
             nome: 'Cookies and Cream',
-            imagem: '',
+            imagem: './img/sorvete-cookies.jpg',
             descricao: 'Cookies de chocolate picados, leite, creme de leite e açúcar.',
             preco: 'R$8,90 (uma bola)',
 
@@ -647,4 +631,10 @@ var produtosComentados = {
         }
     ]
 }
-// console.log(produtos.pizza[8])
+
+module.exports = {
+    usuario,
+    categorias,
+    produtos,
+    produtosComentados
+}
