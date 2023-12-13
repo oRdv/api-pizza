@@ -141,7 +141,7 @@ var produtos = {
             descricao: 'Molho de tomate, mussarela, manjericão e parmesão.',
             imagem: './img/pizza-margherita.jpg',
             preco : 'R$31,90', 
-            comentarios: produtosComentados.comentarios[0],
+            // comentarios: produtosComentados.comentarios[0],
         },
          
         {
@@ -151,7 +151,7 @@ var produtos = {
             descricao: 'Molho de tomate, muçarela, salame pepperoni fatiado e orégano.',
             imagem: './img/pepperoni.jpg',
             preco:'R$33,50',
-            comentarios: produtosComentados.comentarios[1],
+            // comentarios: produtosComentados.comentarios[1],
         },
         
         {
@@ -161,7 +161,7 @@ var produtos = {
             descricao: 'Molho de tomate, mussarela, calabresa fatiada e bacon.',
             imagem: './img/calabresa.jpg',
             preco: 'R$34,98',
-            comentarios: produtosComentados.comentarios[2],
+            // comentarios: produtosComentados.comentarios[2],
         },
 
         {
@@ -171,7 +171,7 @@ var produtos = {
             descricao: 'Mussarela, parmesão, gorgonzola e provolone derretidos sobre o molho de tomate.',
             imagem: './img/pizza-de-4-queijos.jpg',
             preco: 'R$36,90',
-            comentarios: produtosComentados.comentarios[3],
+            // comentarios: produtosComentados.comentarios[3],
         },  
         
         {
@@ -181,7 +181,7 @@ var produtos = {
             descricao: 'Molho de tomate, frango desfiado e cremoso catupiry.',
             imagem: './img/pizza-frango.jpg',
             preco: 'R$35,90',
-            comentarios: produtosComentados.comentarios[4],
+            // comentarios: produtosComentados.comentarios[4],
 
         },
 
@@ -192,7 +192,7 @@ var produtos = {
             descricao: 'Mussarela, presunto, ovos, cebola, pimentão, azeitonas e molho de tomate.',
             imagem: './img/pizza-portuguesa.jpg',
             preco: 'R$37,90',
-            comentarios: produtosComentados.comentarios[5],
+            // comentarios: produtosComentados.comentarios[5],
         },
 
         {
@@ -202,7 +202,7 @@ var produtos = {
             descricao: 'Massa de pizza doce, coberta com ganache de chocolate belga, morangos frescos e raspas de chocolate branco.',
             imagem: './img/pizza-chocolate.jpg',
             preco: 'R$29,90',
-            comentarios: produtosComentados.comentarios[6],
+            // comentarios: produtosComentados.comentarios[6],
 
         },
 
@@ -213,7 +213,7 @@ var produtos = {
             descricao: 'Massa de pizza doce, bananas caramelizadas, cobertura de caramelo artesanal, e uma pitada de canela.',
             imagem: './img/banana.jpg',
             preco: 'R$27,90',
-            comentarios: produtosComentados.comentarios[7],
+            // comentarios: produtosComentados.comentarios[7],
 
         },
 
@@ -224,7 +224,7 @@ var produtos = {
             descricao: 'Massa de pizza doce coberta com Nutella cremosa e generosas porções de marshmallows tostados.',
             imagem: './img/marshmallo.jpg',
             preco: 'R$27,90',
-            comentarios: produtosComentados.comentarios[8],
+            // comentarios: produtosComentados.comentarios[8],
         } 
         
     ],
@@ -507,13 +507,14 @@ var produtos = {
 }
 
 var produtosComentados = {
+
     comentarios: [
         {
             id:1,
             user: usuario.clientes[0].nome,
             data: '01/01/2023',
             imagemUser: usuario.clientes[0].imagem,
-            avaliacao:produtosComentados.avaliacao[4].valor,
+            // avaliacao:produtosComentados.avaliacao[4].valor,
             titulo:'Uma explosão de sabores em cada fatia!',
             descricaoComentarios: 'A pizza Margherita é pura simplicidade e sabor. Com molho de tomate, queijo mozzarella fresco e folhas de manjericão, ela é uma explosão de gostos clássicos e equilibrados em uma massa fina e crocante. É um verdadeiro deleite para quem aprecia sabores autênticos e tradicionais.'
         },
@@ -523,7 +524,7 @@ var produtosComentados = {
             user: usuario.clientes[1].nome,
             data: '17/03/2023 ',
             imagemUser:  usuario.clientes[1].imagem,
-            avaliacao: produtosComentados.avaliacao[4].valor,
+            // avaliacao: produtosComentados.avaliacao[4].valor,
             titulo:'Uma obra de arte em forma de pizza!',
             descricaoComentarios: 'O toque picante dele dá uma animada no sabor, e quando você dá aquela mordida e sente a combinação da massa crocante com o queijo derretido e o sabor intenso do pepperoni, é como uma explosão de felicidade na boca. É um clássico que sempre me conquista!',
            
@@ -534,7 +535,7 @@ var produtosComentados = {
             user: usuario.clientes[2].nome,
             data: '14/02/2023 ',
             imagemUser:  usuario.clientes[2].imagem,
-            avaliacao: produtosComentados.avaliacao[4].valor,
+            // avaliacao: produtosComentados.avaliacao[4].valor,
             titulo:'Sabor que abraça o paladar!',
             descricaoComentarios: 'É como se cada pedaço fosse uma festa para o paladar, com a mistura irresistível da suculência da calabresa com a massa macia e a crocância da borda. É um clássico reconfortante que sempre traz aquela sensação de satisfação ao saborear.',
     
@@ -546,7 +547,7 @@ var produtosComentados = {
             user:  usuario.clientes[3].nome,
             data: '02/04/2023',
             imagemUser:  usuario.clientes[3].imagem,
-            avaliacao: produtosComentados.avaliacao[4].valor,
+            // avaliacao: produtosComentados.avaliacao[4].valor,
             titulo:'Sabor que abraça o paladar!',
             descricaoComentarios: 'A harmonia entre parmesão, gorgonzola, provolone e mussarela é incrível. Cada queijo se destaca e se mescla perfeitamente, proporcionando uma experiência indulgente e rica em sabores.',
            
@@ -558,7 +559,7 @@ var produtosComentados = {
             user: usuario.clientes[4].nome,
             data: '19/08/2023',
             imagemUser:  usuario.clientes[4].imagem,
-            avaliacao: produtosComentados.avaliacao[4].valor,
+            // avaliacao: produtosComentados.avaliacao[4].valor,
             titulo:'Uma experiência gastronômica memorável!!',
             descricaoComentarios: 'O frango desfiado com o cremoso catupiry é uma combinação celestial. O sabor suave do frango se destaca, complementado pela cremosidade do queijo.',
            
@@ -569,7 +570,7 @@ var produtosComentados = {
             user: usuario.clientes[5].nome,
             data: '18/032023',
             imagemUser:  usuario.clientes[5].imagem,
-            avaliacao: produtosComentados.avaliacao[4].valor,
+            // avaliacao: produtosComentados.avaliacao[4].valor,
             titulo:'Um festival de aromas e gostos inesquecíveis!',
             descricaoComentarios: 'A mistura de ingredientes como presunto, ovos, cebola e azeitonas cria uma explosão de sabores. Uma experiência rica e diversificada a cada fatia.',
     
@@ -580,7 +581,7 @@ var produtosComentados = {
             user: usuario.clientes[6].nome,
             data: '01/09/2023',
             imagemUser: usuario.clientes[6].imagem,
-            avaliacao:produtosComentados.avaliacao[4].valor,
+            // avaliacao:produtosComentados.avaliacao[4].valor,
             titulo:'Sabor que aquece o coração e satisfaz a alma!',
             descricaoComentarios: 'Uma deliciosa combinação de doçura e frescor. A base crocante da pizza é complementada pela riqueza do chocolate belga, enquanto os morangos adicionam uma nota refrescante. Uma verdadeira indulgência para os amantes de sobremesas.',
     
@@ -591,7 +592,7 @@ var produtosComentados = {
             user:  usuario.clientes[7].nome,
             data: '13/11/2023',
             imagemUser:  usuario.clientes[7].imagem,
-            avaliacao: produtosComentados.avaliacao[4].valor,
+            // avaliacao: produtosComentados.avaliacao[4].valor,
             titulo:'Simplesmente irresistível a cada fatia!',
             descricaoComentarios: 'Uma explosão de sabores aconchegantes. A doçura natural das bananas caramelizadas se combina harmoniosamente com o toque rico e suave do caramelo. A canela adiciona um aroma reconfortante a cada mordida.',
     
@@ -602,7 +603,7 @@ var produtosComentados = {
             user: usuario.clientes[8].nome,
             data: 'R$34,90  ',
             imagemUser: usuario.clientes[8].imagem,
-            avaliacao: produtosComentados.avaliacao[4].valor,
+            // avaliacao: produtosComentados.avaliacao[4].valor,
             titulo:'Simplesmente irresistível a cada fatia!',
             descricaoComentarios: 'Uma explosão de indulgência. A base de Nutella, conhecida por sua cremosidade e sabor de chocolate, é a combinação perfeita com os marshmallows levemente caramelizados. Cada mordida é uma mistura de doçura e textura, garantindo uma experiência deliciosamente aconchegante.',
     
